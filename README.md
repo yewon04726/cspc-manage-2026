@@ -3,7 +3,7 @@
 CSPC 학회의 **실습실 관리 시간표, 출결 기록, 컴퓨터(PC) 상태와 수리 요청**을 한곳에서 관리하는 웹 서비스의 프론트엔드입니다.
 
 - 백엔드: [cspc-manage-server-2026](https://github.com/yewon04726/cspc-manage-server-2026)
-- 배포: [TODO: Vercel 주소]
+- 배포: [https://manage.cspc.me/]
 
 <img width="1457" height="805" alt="image" src="https://github.com/user-attachments/assets/3e327e76-606a-4b92-b52c-0d70cccc46a2" />
 <img width="1461" height="802" alt="image" src="https://github.com/user-attachments/assets/062b366b-eddd-4024-b829-057d12b44401" />
@@ -104,28 +104,11 @@ npm run lint      # ESLint
 npm run preview   # 빌드 결과 미리보기
 ```
 
-### 환경 변수 (선택)
-
-`.env`에 아래 값을 설정하면 API 서버 주소를 직접 지정할 수 있습니다. 값을 두지 않으면 `/api` 경로가 proxy(개발) 또는 rewrites(배포)를 통해 서버로 전달됩니다.
-
-```env
-VITE_API_BASE_URL=
-```
-
----
-
 ## 내 역할
 
-<!-- TODO: 팀 프로젝트라면 반드시 채우세요. -->
-
 - 프로젝트 제안: 실습실 관리 문제를 정리해 학회원 2명에게 개선을 제안
-- 담당: 백엔드 ([cspc-manage-server-2026](https://github.com/yewon04726/cspc-manage-server-2026))
-- 프론트엔드와의 협업: [API 명세 협의, 화면 요구 전달 등 실제 한 일]
+- 담당: 백엔드, DB ([cspc-manage-server-2026](https://github.com/yewon04726/cspc-manage-server-2026))
 
 ---
-
-## 팀
-
-<!-- TODO: 팀원과 역할 -->
 
 원본 저장소: [CSPCLAB/cspc-manage-2026](https://github.com/CSPCLAB/cspc-manage-2026)
